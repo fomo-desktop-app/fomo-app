@@ -1,0 +1,25 @@
+{
+  "networks": {
+    "solana": {
+      "primary_rpc": "https://api.mainnet-beta.solana.com",
+      "fallback_rpc": "https://solana-api.projectserum.com"
+    },
+    "base": {
+      "primary_rpc": "https://mainnet.base.org",
+      "fallback_rpc": "https://base.meowrpc.com"
+    },
+    "bnb": {
+      "primary_rpc": "https://bsc-dataseed.binance.org",
+      "fallback_rpc": "https://bsc-dataseed1.defibit.io"
+    },
+    "robinhood": {
+      "primary_rpc": "https://rpc.robinhoodchain.org",
+      "fallback_rpc": "https://rpc-backup.robinhoodchain.org"
+    }
+  },
+  "trading": {
+    "default_slippage_bps": 100,
+    "max_failover_timeout_ms": 150,
+    "auto_honeypot_block": true
+  }
+}
